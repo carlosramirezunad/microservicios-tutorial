@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          default-label: gatewey
+          default-label: gateway
           uri: https://github.com/carlosramirezunad/microservicios-tutorial.git
           #skipSslValidation: true
           search-paths: config-data
