@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.usuario.service.usuario_service.modelos.Moto;
 
-@FeignClient(name = "moto-service", url = "http://localhost:8083")
+@FeignClient(name = "moto-service")
 public interface MotoFeignClient {
 
     @PostMapping("/moto")
